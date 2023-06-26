@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function SSR({ formattedDate }) {
+export default function Ssr({ formattedDate }) {
   return (
     <>
       <h1>Server-side rendered page</h1>
